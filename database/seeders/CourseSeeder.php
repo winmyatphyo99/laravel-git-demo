@@ -17,5 +17,10 @@ class CourseSeeder extends Seeder
             'title' => 'Laravel Basics',
             'description' => 'Intro course'
         ]);
+
+        Course::create([
+            'title' => 'Advanced Laravel',
+            'description' => 'Deep dive'
+        ]);
     }
 }
